@@ -1,0 +1,34 @@
+Package: tcplPlot
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jason",
+           family = "Brown",
+           role = c("aut", "cre"),
+           email = "brown.jason@epa.gov",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    htmltools,
+    plotly,
+    data.table,
+    httr,
+    purrr,
+    rlang,
+    stringr,
+    tcplfit2,
+    crosstalk,
+    manipulateWidget,
+    tidyr,
+    htmlwidgets,
+    ctxR (>= 1.1.0),
+    ggplot2
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 2.1.0)
+Depends: 
+    R (>= 3.5)
